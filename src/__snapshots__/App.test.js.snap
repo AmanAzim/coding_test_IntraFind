@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App.js renders properly 1`] = `
+<div
+  style={
+    Object {
+      "margin": "30px",
+    }
+  }
+>
+  <form
+    onSubmit={[Function]}
+  >
+    First name: 
+    <input
+      name="fname"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <br />
+    Last name: 
+    <input
+      name="lname"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <br />
+    Email: 
+    <input
+      name="email"
+      onChange={[Function]}
+      type="email"
+      value=""
+    />
+    <br />
+    <input
+      type="submit"
+      value="Submit"
+    />
+  </form>
+  <br />
+  <br />
+  <hr />
+  <hr />
+  <b>
+    Entered user data:
+  </b>
+  <br />
+  <br />
+</div>
+`;
